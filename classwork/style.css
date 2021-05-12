@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+}
+label{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+ font-size: 1.5em;
+ color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color: brown;
+    border-radius: 5px;
+    outline: none;
+    width: 70px;
+    padding: 2px;
+    font: 1.2em bold;
+    color: #fff;
+    margin: 10px;
+}
+input{
+    border: solid 2px #e97b14;
+    border-radius: 5px;
+   padding: 10px;
+   width: 50px;
+   text-align: center;
+}
+#outputRadius,#outputArea{
+    color: red;
+    font-size: 1.2em;
+    padding: 3px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
