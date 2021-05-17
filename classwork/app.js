@@ -9,7 +9,7 @@ document.getElementById('calArea').onclick=calculateArea;
 
 
 function calculateRadius() {
-  let radius = document.getElementById('value').value;
+  let radius = document.querySelector('#value').value;
    radius = validation(radius);
   if (typeof radius === 'string') {
     
