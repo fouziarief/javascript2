@@ -1,19 +1,24 @@
 import { calRadius, calArea } from './calculator.js';
 import { validation } from './validation.js';
+// import { outputElement } from './display.js';
 
-document.getElementById('value').onclick=calculateRadius;
-document.getElementById('area').onclick=calculateArea;
+const radiusBtn=document.getElementById('calRadius');
+radiusBtn.addEventListener('click',calculateRadius) ;
+
+document.getElementById('calArea').onclick=calculateArea;
 
 
 function calculateRadius() {
   let radius = document.getElementById('value').value;
-  radius = validation(radius);
+   radius = validation(radius);
   if (typeof radius === 'string') {
+    
     document.getElementById('outputRadius').innerHTML = radius; 
   } else {
-    let c = calRadius(radius);
+    let c = calRadius(radius)
     document.getElementById('outputRadius').innerHTML = c;
   }
+  
 }
 
 function calculateArea() {
