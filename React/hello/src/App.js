@@ -1,19 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import greet from './component/greet'
-import welcome from './component/welcome'
+import Greet from './component/Greet'
+import Welcome from './component/Welcome'
+import Button from './component/Button'
 
+function onclick(){
+  var btn = document.createElement("P");
+  btn.innerText = "This is a Component Button.";
+  document.body.appendChild(btn);
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        <greet></greet>
-        <welcome></welcome>
-        </p>
-       
-      </header>
+    <div className="App"> 
+        <Greet />
+        <Welcome></Welcome>
+        <Button color='green' text='Click Me' onClick={onclick}/>
     </div>
   );
 }

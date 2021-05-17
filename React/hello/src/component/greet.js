@@ -1,7 +1,19 @@
-import React from 'react'
+// import React from 'react'
 
-function greet(){
-    return <h1>hello world</h1>
+const Greet = () => {
+    return (
+        <div>
+            <h1>Hello world</h1>
+        </div>
+    )
 }
 
-export default greet
+export default Greet
+
+// import React from 'react'
+
+// function Greet(){
+//     return <h1>hello world</h1>
+// }
+
+// export default Greet
