@@ -16,7 +16,7 @@ function App() {
   
   return (
      <div className="App"> 
-        <Greet name ="User">
+        <Greet >
        
           {/* <button>Hire Me</button>  */}
         </Greet>  

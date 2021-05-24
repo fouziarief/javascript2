@@ -8,7 +8,7 @@ const heading={
     }
     return (
         <div>
-            <h1 className="head" style={heading}>Hello  <br></br> {props.name}</h1>
+            <h1 className="head" style={heading}>Welcome <br></br> {props.name}</h1>
             
             {props.children}
         </div>
