@@ -1,9 +1,16 @@
 // import React from 'react'
 
-const Greet = () => {
+const Greet = (props) => {
+const heading={
+        fontSize:'2em',
+        backgroundColor: 'black',
+        color:'White'
+    }
     return (
         <div>
-            <h1>Hello world</h1>
+            <h1 className="head" style={heading}>Hello  <br></br> {props.name}</h1>
+            
+            {props.children}
         </div>
     )
 }

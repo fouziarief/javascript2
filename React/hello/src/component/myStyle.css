@@ -1,0 +1,72 @@
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.box,.box1,.box2{
+
+    padding: 20px;
+    margin: 50px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: rgb(131, 126, 126);
+    width: 300px;
+    justify-content: space-evenly;
+  position: absolute;
+  left: 30%;
+
+}
+.box1{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    padding: 10px;
+
+    
+}
+.box2{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    padding: 5px;
+
+}
+.box2 label{
+    width: 100px;
+    display: inline-block;
+}
+.box2 p{
+    font-size: 1em;
+    color: white;
+}
+.like,.dislike{
+    border-radius: 50%;
+    font-size: 1em;
+    /* display: flex; */
+    padding: 5px;
+    margin: 5x;
+    align-items: center;
+    text-align: center;
+    justify-content:space-evenly;
+    outline: none;
+    border: none;
+    
+}
+.like{
+    background-color: green;
+    color: white;
+}
+.dislike{
+    background-color: red;
+    color: white;
+}
+/* .primary{
+    color: orange;
+}
+.bigger{
+    font-size: 5em;
+
+} */
